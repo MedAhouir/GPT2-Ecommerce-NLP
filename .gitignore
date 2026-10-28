@@ -1,0 +1,12 @@
+# environments and caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# model weights and data are not stored in the repository
+gpt2-tokens-best/
+*.safetensors
+*.bin
+*.pt
+amazon_*.csv
